@@ -142,8 +142,12 @@ int main() {
     cout << "Matrix 1 * Matrix 2" << endl;
     (matrix1 * matrix2).display();
 
+    cout << "\n" << endl;
+
     cout << "Sum of Diagonals: Matrix 1" << endl;
     cout << matrix1.sumOfDiagonals() << endl;
+
+    cout << "\n" << endl;
 
     cout << "Sum of Diagonals: Matrix 2" << endl;
     cout << matrix2.sumOfDiagonals() << endl;
